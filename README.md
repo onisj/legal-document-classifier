@@ -144,9 +144,11 @@ The dataset (`sample_200_rows.csv`) contains legal case reports with the followi
 - Address potential label imbalance with techniques like SMOTE.
 
 ## Contact
-For questions or issues, contact [your-email@example.com] or submit an issue on the GitHub repository.
+For questions or issues, contact [my email](mailto:oni_sj@outlook.com) or submit an issue on the GitHub repository.
 
 ---
-Submitted by: Segun Oni
-For: LawPavilion AI Engineer Role Suitability Test  
-Deadline: May 28, 2025
+**Submitted by:** Segun Oni
+
+**For:** LawPavilion AI Engineer Role Suitability Test
+
+**Deadline:** May 28, 2025
