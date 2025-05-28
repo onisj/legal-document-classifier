@@ -6,18 +6,52 @@ This project implements a Natural Language Processing (NLP) pipeline to classify
 ## Project Structure
 ```
 legal-document-classifier/
-├── notebooks/
-│   └── code.ipynb          # Jupyter notebook with preprocessing, modeling, and evaluation
-├── app/
-│   └── api.py             # FastAPI endpoint for inference
-├── models/
-│   └── saved_model.pkl    # Trained Logistic Regression model
-│   └── vectorizer.pkl     # TF-IDF vectorizer
-│   └── bert_model/        # Fine-tuned BERT model (optional)
-│   └── bert_tokenizer/    # BERT tokenizer (optional)
-├── requirements.txt       # Dependencies
-├── README.md              # Project documentation
-└── label_distribution.png # Visualization of label distribution
+.
+├── app
+│   ├── __pycache__
+│   │   └── api.cpython-310.pyc
+│   └── api.py
+├── data
+│   └── sample_200_rows.csv
+├── docs
+│   └── NLP_Code_Challenge.docx.pdf
+├── LICENSE
+├── models
+│   ├── bert_model
+│   │   ├── config.json
+│   │   └── pytorch_model.bin
+│   ├── bert_tokenizer
+│   │   ├── special_tokens_map.json
+│   │   ├── tokenizer_config.json
+│   │   └── vocab.txt
+│   ├── best_bert_label_map.json
+│   ├── best_bert_model
+│   │   ├── config.json
+│   │   └── pytorch_model.bin
+│   ├── best_bert_tokenizer
+│   │   ├── merges.txt
+│   │   ├── special_tokens_map.json
+│   │   ├── tokenizer_config.json
+│   │   ├── vocab.json
+│   │   └── vocab.txt
+│   ├── best_label_map.json
+│   ├── lr_vectorizer.pkl
+│   ├── saved_lr_model.pkl
+│   ├── saved_model.pkl
+│   └── vectorizer.pkl
+├── notebooks
+│   └── code.ipynb
+├── README.md
+├── reports
+│   ├── non-technical.md
+│   └── tecnical.md
+├── requirements.txt
+├── streamlit_app
+│   └── app.py
+└── visuals
+    ├── accuracy_comparison.png
+    ├── confusion_matrices.png
+    └── label_distribution.png
 ```
 
 ## Dataset
