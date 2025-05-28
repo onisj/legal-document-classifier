@@ -1,0 +1,95 @@
+.
+├── app
+│   ├── __pycache__
+│   │   └── api.cpython-310.pyc
+│   └── api.py
+├── data
+│   └── sample_200_rows.csv
+├── docs
+│   └── NLP_Code_Challenge.docx.pdf
+├── LICENSE
+├── models
+│   ├── bert_model
+│   │   ├── config.json
+│   │   └── pytorch_model.bin
+│   ├── bert_tokenizer
+│   │   ├── special_tokens_map.json
+│   │   ├── tokenizer_config.json
+│   │   └── vocab.txt
+│   ├── best_bert_label_map.json
+│   ├── best_bert_model
+│   │   ├── config.json
+│   │   └── pytorch_model.bin
+│   ├── best_bert_tokenizer
+│   │   ├── merges.txt
+│   │   ├── special_tokens_map.json
+│   │   ├── tokenizer_config.json
+│   │   ├── vocab.json
+│   │   └── vocab.txt
+│   ├── best_label_map.json
+│   ├── lr_vectorizer.pkl
+│   ├── saved_lr_model.pkl
+│   ├── saved_model.pkl
+│   └── vectorizer.pkl
+├── notebooks
+│   ├── code.ipynb
+│   ├── results
+│   │   ├── checkpoint-100
+│   │   ├── checkpoint-120
+│   │   ├── checkpoint-160
+│   │   ├── checkpoint-20
+│   │   ├── checkpoint-200
+│   │   ├── checkpoint-240
+│   │   ├── checkpoint-320
+│   │   ├── checkpoint-40
+│   │   ├── checkpoint-400
+│   │   ├── checkpoint-480
+│   │   ├── checkpoint-560
+│   │   ├── checkpoint-60
+│   │   ├── checkpoint-640
+│   │   ├── checkpoint-720
+│   │   ├── checkpoint-80
+│   │   └── checkpoint-800
+│   ├── results_1
+│   │   ├── checkpoint-120
+│   │   ├── checkpoint-160
+│   │   ├── checkpoint-200
+│   │   ├── checkpoint-240
+│   │   ├── checkpoint-280
+│   │   ├── checkpoint-320
+│   │   ├── checkpoint-360
+│   │   ├── checkpoint-40
+│   │   ├── checkpoint-400
+│   │   ├── checkpoint-480
+│   │   ├── checkpoint-560
+│   │   ├── checkpoint-640
+│   │   ├── checkpoint-720
+│   │   ├── checkpoint-80
+│   │   └── checkpoint-800
+│   ├── results_2
+│   │   ├── checkpoint-120
+│   │   ├── checkpoint-160
+│   │   ├── checkpoint-20
+│   │   ├── checkpoint-320
+│   │   ├── checkpoint-40
+│   │   ├── checkpoint-480
+│   │   ├── checkpoint-60
+│   │   └── checkpoint-80
+│   └── results_3
+│       ├── checkpoint-160
+│       ├── checkpoint-320
+│       └── checkpoint-480
+├── project_structure.txt
+├── README.md
+├── reports
+│   ├── non-technical.md
+│   └── tecnical.md
+├── requirements.txt
+├── streamlit_app
+│   └── app.py
+└── visuals
+    ├── accuracy_comparison.png
+    ├── confusion_matrices.png
+    └── label_distribution.png
+
+60 directories, 33 files
